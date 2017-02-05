@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|AnyCPU">
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x86">
+      <Configuration>Debug</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|AnyCPU">
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x86">
+      <Configuration>Release</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>f21a1234-f3cd-4f1a-8eda-db7d28744669</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup Condition="'$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0'">
+    <VisualStudioVersion>12.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).Default.props" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).props" />
+  <PropertyGroup>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetPlatformVersion>8.1</TargetPlatformVersion>
+    <RequiredPlatformVersion>8.1</RequiredPlatformVersion>
+    <MinimumVisualStudioVersion>12.0</MinimumVisualStudioVersion>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <PackageCertificateKeyFile>pathways.products_TemporaryKey.pfx</PackageCertificateKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppxManifest Include="package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <Content Include="css\font-awesome.css" />
+    <Content Include="css\font-awesome.min.css" />
+    <Content Include="css\style.css" />
+    <Content Include="css\standardize.css" />
+    <Content Include="css\vendor\animate.css" />
+    <Content Include="css\vendor\bootstrap.min.css" />
+    <Content Include="css\vendor\font-awesome.css" />
+    <Content Include="css\vendor\font-awesome.min.css" />
+    <Content Include="css\vendor\grid.less" />
+    <Content Include="css\vendor\jquery.carousel-3d.default.css" />
+    <Content Include="css\vendor\jquery.fullpage.css" />
+    <Content Include="css\vendor\jquery.fullpage.min.css" />
+    <Content Include="css\vendor\lightbox.min.css" />
+    <Content Include="css\vendor\open-iconic-bootstrap.css" />
+    <Content Include="css\vendor\owl.carousel.css" />
+    <Content Include="css\vendor\owl.theme.css" />
+    <Content Include="css\vendor\slick-theme.css" />
+    <Content Include="css\vendor\slick.css" />
+    <Content Include="fonts\roboto-v15-latin-100.eot" />
+    <Content Include="fonts\roboto-v15-latin-100.svg" />
+    <Content Include="fonts\roboto-v15-latin-100.ttf" />
+    <Content Include="fonts\roboto-v15-latin-100.woff" />
+    <Content Include="fonts\roboto-v15-latin-100.woff2" />
+    <Content Include="fonts\roboto-v15-latin-300.eot" />
+    <Content Include="fonts\roboto-v15-latin-300.svg" />
+    <Content Include="fonts\roboto-v15-latin-300.ttf" />
+    <Content Include="fonts\roboto-v15-latin-300.woff" />
+    <Content Include="fonts\roboto-v15-latin-300.woff2" />
+    <Content Include="fonts\roboto-v15-latin-500.eot" />
+    <Content Include="fonts\roboto-v15-latin-500.svg" />
+    <Content Include="fonts\roboto-v15-latin-500.ttf" />
+    <Content Include="fonts\roboto-v15-latin-500.woff" />
+    <Content Include="fonts\roboto-v15-latin-500.woff2" />
+    <Content Include="fonts\roboto-v15-latin-regular.eot" />
+    <Content Include="fonts\roboto-v15-latin-regular.svg" />
+    <Content Include="fonts\roboto-v15-latin-regular.ttf" />
+    <Content Include="fonts\roboto-v15-latin-regular.woff" />
+    <Content Include="fonts\roboto-v15-latin-regular.woff2" />
+    <Content Include="images\bg-pattern.png" />
+    <Content Include="images\bg-poly.jpg" />
+    <Content Include="images\bg-red.jpg" />
+    <Content Include="images\bg-splash.jpeg" />
+    <Content Include="images\bg-unfocus.png" />
+    <Content Include="images\bg_screen_20.jpeg" />
+    <Content Include="images\f-analytics.png" />
+    <Content Include="images\f-cert.png" />
+    <Content Include="images\f-cloud.png" />
+    <Content Include="images\f-data-intergration.png" />
+    <Content Include="images\f-funding.png" />
+    <Content Include="images\f-program-overview.png" />
+    <Content Include="images\f-sso.png" />
+    <Content Include="images\f-workflow.png" />
+    <Content Include="images\favico.pdn" />
+    <Content Include="images\icon-explore.png" />
+    <Content Include="images\icon-onramp.png" />
+    <Content Include="images\icon-outreach.png" />
+    <Content Include="images\liveeditions-book-white.png" />
+    <Content Include="images\onramp-main-2nd.png" />
+    <Content Include="images\onramp-main-blk.png" />
+    <Content Include="images\favico.jpg" />
+    <Content Include="images\onramp-main.png" />
+    <Content Include="images\pathways-white-icon.png" />
+    <Content Include="images\pathways-iphone.png" />
+    <Content Include="images\platform_explore.png" />
+    <Content Include="images\platform_onramp.png" />
+    <Content Include="images\platform_onramp_student.png" />
+    <Content Include="images\platform_outreach.png" />
+    <Content Include="images\platform_outreach_counselor.png" />
+    <Content Include="images\platform_pathways.png" />
+    <Content Include="about-us.html" />
+    <Content Include="images\team-eric-kmiec.jpg" />
+    <Content Include="images\team-scott-getchel.png" />
+    <Content Include="news.html" />
+    <Content Include="privacy.html" />
+    <Content Include="index.html" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="images\preloader.gif" />
+    <Content Include="js\index.js" />
+    <Content Include="js\plugins\bootstrap.min.js" />
+    <Content Include="js\plugins\jquery.carousel-3d.min.js" />
+    <Content Include="js\plugins\jquery.easing.min.js" />
+    <Content Include="js\plugins\jquery.fullpage.min.js" />
+    <Content Include="js\plugins\jquery.meanmenu.js" />
+    <Content Include="js\plugins\jquery.min.js" />
+    <Content Include="js\plugins\jquery.slimscroll.js" />
+    <Content Include="js\plugins\jquery.slimscroll.min.js" />
+    <Content Include="js\plugins\jquery.waypoints.min.js" />
+    <Content Include="js\plugins\lightbox.min.js" />
+    <Content Include="js\plugins\modernizr-2.8.3.min.js" />
+    <Content Include="js\plugins\owl.carousel.min.js" />
+    <Content Include="js\plugins\slick.js" />
+    <Content Include="js\plugins\slick.min.js" />
+    <Content Include="js\plugins\smoothscroll.min.js" />
+    <Content Include="js\plugins\wow.min.js" />
+    <None Include="pathways.products_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <SDKReference Include="Microsoft.WinJS.2.0, Version=1.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="images\skins\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).targets" />
+  <!-- To modify your build process, add your task inside one of the targets below then uncomment
+       that target and the DisableFastUpToDateCheck PropertyGroup. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <PropertyGroup>
+    <DisableFastUpToDateCheck>true</DisableFastUpToDateCheck>
+  </PropertyGroup>
+  -->
+</Project>
