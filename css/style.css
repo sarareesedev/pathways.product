@@ -228,7 +228,8 @@ h5 {
 
 .onramp {
     background-image: url(../images/bg-pattern.png);
-    background-color: rgb(245, 245, 245);
+    /*background-color: rgb(245, 245, 245);*/
+    background-color: rgb(228, 78, 50);
 }
 
 .outreach {
@@ -292,6 +293,18 @@ header {
     margin: 0 auto;
     background-color: rgba(0,0,0,0.35);
 }
+
+.logo-container {
+    display: block;
+}
+
+    .logo-container span {
+        font-size: 30px;
+        font-weight: 400;
+        color: #fff;
+        padding-top: 30px;
+        position: absolute;
+    }
 
 .logo {
     display: inline-block;
@@ -862,7 +875,7 @@ ul {
 
     .screen img {
         z-index: 4;
-        width: 200px;
+        width: 150px;
     }
 
     .banner-block-inner {
@@ -874,7 +887,7 @@ ul {
 
     .screen img {
         z-index: 4;
-        width: 200px;
+        width: 150px;
     }
 
     .banner-block-inner {
@@ -900,25 +913,25 @@ ul {
     }
 
     .medium-section img {
-        top: 0px;
+        /*top: 0px;
         bottom: auto;
         left: 0;
         right: 0;
         margin-right: auto;
-        margin-left: auto;
+        margin-left: auto;*/
     }
 
     h4 {
         width: 66%;
-        margin-top: 150px;
-        margin-left: 17.0588235294%;
-        text-align: center;
+        margin-top: 50px;
+        /*margin-left: 17.0588235294%;
+        text-align: center;*/
     }
 
     h5 {
         width: 66% !important;
-        margin-left: 17.0588235294%;
-        text-align: center;
+        /*margin-left: 17.0588235294%;
+        text-align: center;*/
     }
 
 
@@ -948,12 +961,18 @@ ul {
 
 
     .product .medium-section-text {
-        margin-top: 30px;
+        /*margin-top: 30px;*/
     }
 
+    .medium-section {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+
     .medium-section-text {
-        width: 66%;
-        margin-left: 17.0588235294%;
+        /*width: 66%;
+        margin-left: 17.0588235294%;*/
     }
 
 
@@ -1001,7 +1020,7 @@ ul {
 
     .screen img {
         z-index: 4;
-        width: 200px;
+        width: 100px;
     }
 
     .phone img {
@@ -1013,6 +1032,9 @@ ul {
         text-align: justify;
     }
 
+    .phone h4 {
+        margin-top: 150px;
+    }
 
     .notice-section {
         width: 90%;
@@ -1096,6 +1118,7 @@ ul {
         margin-top: 10px;
     }
 
+
     header {
         position: static;
         height: auto;
@@ -1105,6 +1128,10 @@ ul {
         float: none;
         margin-right: auto;
         margin-left: auto;
+    }
+
+    .logo-container span {
+        display: none;
     }
 
     img {
@@ -1188,6 +1215,10 @@ ul {
         font-size: 12px;
     }
 
+    .phone h4 {
+        margin-top: 150px;
+    }
+
     .notice {
         text-align: justify;
     }
@@ -1231,6 +1262,22 @@ ul {
 
 @media (max-width: 375px) {
 
+
+
+    .medium-section {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+        .medium-section img {
+            position: relative;
+            padding-top: 5px;
+        }
+
+    .medium-section-text {
+        margin-left: 27%;
+    }
+
     .utility-nav a {
         display: block;
         margin: auto;
@@ -1250,6 +1297,29 @@ ul {
     h2 {
         margin-top: 10px;
         font-size: 12px;
+    }
+
+    h4 {
+        margin-left: 25%;
+    }
+
+    h2-sub {
+        font-size: 1.0em;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin: 10px auto 0;
+    }
+
+    h4 {
+        margin-top: 20px;
+    }
+
+    h5 {
+        margin-left: 27%;
+    }
+
+    .phone h4 {
+        margin-top: 25px;
     }
 
     .by {
@@ -1279,10 +1349,22 @@ ul {
         width: 64px;
     }
 
+    .logo-container span {
+        display: none;
+    }
+
     .notice {
         text-align: justify;
     }
 
+    .news-notice {
+        display: block;
+        position: static;
+        padding: 12px 0;
+        margin-bottom: 10px;
+        text-align: center;
+        border-bottom: 1px solid rgba(192, 192, 192, 0.15);
+    }
 
     .notice-section {
         width: 90%;
@@ -1323,6 +1405,15 @@ ul {
         margin-top: 50px;
         margin-bottom: 50px;
         font-size: 1.7em;
+    }
+
+    .medium-section-background {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .product h4 {
+        width: auto;
     }
 }
 
